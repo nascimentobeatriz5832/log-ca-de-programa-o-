@@ -1,0 +1,38 @@
+<html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> test 3</title>
+
+<head>
+    <script type="text/javascript">
+    function num() {
+        var A = parseFloat(document.getElementById("A").value);
+        var B = parseFloat( document.getElementById("B").value);
+        var C = parseFloat( document.getElementById("c").value);
+
+        if(A>B && A>C){
+
+
+            alert ("o primeiro número informado é maior: "+ A )
+        }
+         else if (B>A && B>C){
+
+            alert ("o segundo número informao é maior:"+ B)
+         }
+          else {
+
+            alert ("o terceiro número informao é maior:"+ C)
+                  }
+
+    }
+</script>
+</head>
+<body>
+ digite o primeiro número:<input type="number" id="A"><br/>
+ digite o primeiro número:<input type="number" id="B"><br/>
+ digite o primeiro número:<input type="number" id="c"><br/>
+ <button onclick="num()">qual é maior</button>
+
+</body>
+</html>

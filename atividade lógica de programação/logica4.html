@@ -1,0 +1,40 @@
+<html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> questão 4 </title>
+
+<head>
+    <script type="text/javascript">
+    function num() {
+        var A = parseInt(document.getElementById("A").value);
+        var B = parseInt( document.getElementById("B").value);
+        var C = parseInt( document.getElementById("c").value);
+
+        if(A>B && B>C){
+
+             var soma = A + B
+            alert (" A soma dos dois maiores  "+ soma )
+        }
+
+         else if (B>A && C>A){
+             var soma = B + C
+
+            alert ("A soma dos dois maiores:"+ soma )
+         }
+          else {
+                  var soma = A + C
+            alert (" A soma dos dois maiores :"+ soma)
+                  }
+
+    }
+</script>
+</head>
+<body>
+ digite o primeiro número:<input type="number" id="A"><br/>
+ digite o primeiro número:<input type="number" id="B"><br/>
+ digite o primeiro número:<input type="number" id="c"><br/>
+ <button onclick="num()"> soma</button>
+
+</body>
+</html>

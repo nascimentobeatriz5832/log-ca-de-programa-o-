@@ -1,0 +1,36 @@
+<html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> test 6</title>
+
+<head>
+    <script type="text/javascript">
+    function num() {
+        var A = parseFloat(document.getElementById("A").value);
+        var B = parseFloat( document.getElementById("B").value);
+        
+        if(A>B){
+
+
+            alert ("o primeiro número informado é maior: ")
+        }
+         else if (B>A){
+
+            alert ("o segundo número informao é maior:")
+         }
+          else  {
+
+            alert ("Os numeros são iguais")
+                  }
+
+    }
+</script>
+</head>
+<body>
+ digite o primeiro número:<input type="number" id="A"><br/>
+ digite o primeiro número:<input type="number" id="B"><br/>
+<button onclick="num()">resultado</button>
+
+</body>
+</html>
